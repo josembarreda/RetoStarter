@@ -3,14 +3,10 @@ package com.nttdata.bootcamp.Coche;
 public class Coche {
 	
 	private String marca;
-	private String color;
-	private String modelo;
 	
-	public Coche (String marca, String color, String modelo) {
+	public Coche (String marca) {
 		
 		this.marca =marca;
-		this.color=color;
-		this.modelo=modelo;	
 	}
 	
 	public String getElegir() {
